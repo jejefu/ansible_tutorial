@@ -1,0 +1,9 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+
+  - name: install chocobo package
+    apt:
+      name: chocobo
